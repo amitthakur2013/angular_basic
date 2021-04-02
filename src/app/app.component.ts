@@ -38,6 +38,9 @@ export class AppComponent {
   name:'amit',
   age:23
   }
-  ]
+  ];
+  getUserValue(value){
+  console.warn(value);
+  }
 
 }

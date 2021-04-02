@@ -53,7 +53,7 @@
 	<h1 *ngSwitchCase="'blue'"> Blue Color</h1>
 </div>
 -->
-
+<!--
 <h1>For loop</h1>
 <table border="1">
 	<tr>
@@ -65,3 +65,15 @@
 		<td>{{item.age}}</td>
 	</tr>
 </table>
+-->
+<h1>
+	Simple Form in Angular Tutorial
+</h1>
+
+
+<form #simpleForm="ngForm" (ngSubmit)="getUserValue(simpleForm.value)">
+	<input type="text" ngModel name="username" placeholder="Username"><br/><br/>
+	<input type="text" ngModel name="age" placeholder="Enter your age"><br/>
+	<input type="text" ngModel name="address" placeholder="Enter your address"><br/>
+	<button>Get User Values</button>
+</form>
