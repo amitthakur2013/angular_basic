@@ -41,6 +41,11 @@ export class AppComponent {
   ];
   getUserValue(value){
   console.warn(value);
+  };
+  col_val="blue";
+  changeColor(value){
+  this.col_val=value.col.toString();
+  console.warn(value);
   }
 
 }
