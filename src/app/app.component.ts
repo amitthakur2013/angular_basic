@@ -121,7 +121,11 @@ export class AppComponent {
   	address:"Bhartiya"
   }
   ];
+  n="";
   parentComponent(data) {
   console.warn(data);
-  }
+  this.n=data.name;
+  };
+  today=Date.now();
+  curr=10;
 }

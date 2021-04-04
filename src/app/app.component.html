@@ -152,4 +152,8 @@
 </div>
 -->
 <h1>Send data from child to parent component</h1>
-<app-users4 (parentComponent)="parentComponent($event)"></app-users4>
+<app-users4 (parentComponent)="parentComponent($event)"></app-users4><br/><br/>
+<h2>{{n | titlecase}}</h2> <br/><br/>
+<h2>{{today | date:'fullDate'}}</h2> <br/><br/>
+<h2>{{n | slice:2:4}}</h2> <br/><br/>
+<h2>{{curr | currency:'CND'}}</h2> <br/><br/>
