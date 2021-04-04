@@ -101,5 +101,24 @@ export class AppComponent {
     middle: false,
     right: false
   };
-
+  dta="Akt";
+  users=[{
+  	name:"amit",
+  	age:23,
+  	address:"noida"
+  },
+  {
+  	name:"hardip",
+  	age:30,
+  	address:"Party"
+  },{
+  	name:"anand",
+  	age:22,
+  	address:"Janta"
+  },{
+  	name:"kamlesh",
+  	age:50,
+  	address:"Bhartiya"
+  }
+  ]
 }

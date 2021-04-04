@@ -12,6 +12,8 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatButtonModule} from '@angular/material/button';
 import {MatSliderModule} from '@angular/material/slider';
+import { Users2Component } from './users2/users2.component';
+import { Users3Component } from './users3/users3.component';
 
 
 @NgModule({
@@ -19,7 +21,9 @@ import {MatSliderModule} from '@angular/material/slider';
     AppComponent,
     UserListComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    Users2Component,
+    Users3Component
   ],
   imports: [
     BrowserModule,
