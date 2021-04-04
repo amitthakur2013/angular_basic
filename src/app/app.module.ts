@@ -14,6 +14,7 @@ import {MatButtonModule} from '@angular/material/button';
 import {MatSliderModule} from '@angular/material/slider';
 import { Users2Component } from './users2/users2.component';
 import { Users3Component } from './users3/users3.component';
+import { Users4Component } from './users4/users4.component';
 
 
 @NgModule({
@@ -23,7 +24,8 @@ import { Users3Component } from './users3/users3.component';
     HeaderComponent,
     FooterComponent,
     Users2Component,
-    Users3Component
+    Users3Component,
+    Users4Component
   ],
   imports: [
     BrowserModule,

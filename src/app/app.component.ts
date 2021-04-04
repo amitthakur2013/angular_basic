@@ -120,5 +120,8 @@ export class AppComponent {
   	age:50,
   	address:"Bhartiya"
   }
-  ]
+  ];
+  parentComponent(data) {
+  console.warn(data);
+  }
 }
